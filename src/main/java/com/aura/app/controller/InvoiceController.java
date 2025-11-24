@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/invoices")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","https://neon-dasik-422fa9.netlify.app"})
 @Tag(name = "Invoices", description = "Revenue invoice operations")
 public class InvoiceController {
 
