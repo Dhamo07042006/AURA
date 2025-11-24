@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","https://neon-dasik-422fa9.netlify.app"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","https://auragoldinvoice.netlify.app"})
 @Tag(name = "Users", description = "User CRUD operations")
 public class UserController {
 
